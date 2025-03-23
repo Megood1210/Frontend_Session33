@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .password-container {
+            position: relative;
+            width: 300px;
+        }
+        .password-container input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .toggle-password {
+            position: absolute;
+            top: 50%;
+            left: 300px;
+            transform: translateY(-50%);
+        }
+    </style>
+</head>
+<body>
+    <div class="password-container">
+        <input type="password" id="password" placeholder="Enter your password">
+        <span class="toggle-password" onclick="togglePassword()"><ion-icon name="eye-outline"></ion-icon></span>
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="./ss33ex1.js"></script>
+</body>
+</html>
